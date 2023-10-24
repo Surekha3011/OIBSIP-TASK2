@@ -17,11 +17,11 @@ public class NumberGuessingGame {
             tries++;
 
             if (guess < number) {
-                System.out.println("Too low, try again.");
+                System.out.println("Less than actual number, try again");
             } else if (guess > number) {
-                System.out.println("Too high, try again.");
+                System.out.println("greater than actual number, try again.");
             } else {
-                System.out.println("Congratulations, you guessed the number in " + tries + " tries!");
+                System.out.println("Congratulations, you successfully guessed the number in " + tries + " tries!!!!");
             }
         }
         scanner.close();
